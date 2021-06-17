@@ -1,0 +1,29 @@
+.card{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.pet{
+	background: whitesmoke;
+	margin:auto;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	width:100%;
+	padding: 10px 10px 10px 10px;
+	border:5px solid black ;
+	margin: 40px 40px 10px 40px;
+}
+
+.image{
+	width: 200px;
+}
+
+span{
+	font-weight: bold;
+}
+
+#root{
+	display:flex;
+	justify-content: flex-start;
+}

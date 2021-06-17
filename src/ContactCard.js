@@ -2,12 +2,13 @@ import React from "react";
 
 const ContactCard = (props) => {
     const {name,img,phno,email}=props.contact;
+    console.log(img);
     return(
-        <div>
-            <img alt="pet" scr={img} />
+        <div className="pet">
+            <img className="image" alt="pet" src={img} />
             <h3>{name}</h3>
-            <p>Phone no:{phno}</p>
-            <p>Email:{email}</p>
+            <p><span>Phone no: </span>{phno}</p>
+            <p><span>Email: </span>{email}</p>
         </div>
     );
 } 
